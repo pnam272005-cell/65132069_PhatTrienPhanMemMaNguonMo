@@ -1,9 +1,21 @@
-<html>
-<?php
-$n = rand(1, 100);
-echo "Số n = $n <br>";
-for ($i = 1; $i <= $n; $i++) {
-    if ($i % 2 == 0) echo "$i ";
-}
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1 - So chan</title>
+</head>
+<body>
+    <?php
+    $n = rand(1, 100);
+    echo "<h3>Số n = $n</h3>";
+    echo "Các số chẵn từ 1 đến $n là: <br>";
+    
+    for ($i = 1; $i <= $n; $i++) {
+        if ($i % 2 == 0) {
+            echo "$i ";
+        }
+    }
+    ?>
+</body>
 </html>

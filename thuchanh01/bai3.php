@@ -15,7 +15,7 @@
     } else {
         echo "$n là số lẻ <br>";
     }
-    
+
     $kt = 1;
     if ($n < 2) {
         $kt = 0;
